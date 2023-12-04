@@ -3,7 +3,7 @@ TextToWhatsapp is an Android Kotlin library that enables users to send messages 
 
 Getting Started
 Step 1: Add Repository
-Add the following lines to your root build.gradle file at the end of the repositories: ``` ```
+Add the following lines to your root build.gradle file at the end of the repositories: \n
 version :``` 1.0.0```
 ``` allproject
 dependencyResolutionManagement {

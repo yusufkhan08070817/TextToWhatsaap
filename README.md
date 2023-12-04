@@ -10,6 +10,7 @@ Step 1: Add Repository
 Add the following lines to your root build.gradle file at the end of the repositories:
 Version : 1.0.0		
 ```
+```
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -17,6 +18,7 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
+```
 ```
 Step 2: Add Dependency
 Add the following dependency to your app module's build.gradle file:

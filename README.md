@@ -18,7 +18,7 @@ Step 2: Add Dependency
 Add the following dependency to your app module's build.gradle file:
 ```gradle
 dependencies {
-    implementation 'com.github.yusufkhan08070817:TextToWhatsaap:Tag'
+    implementation ("com.github.yusufkhan08070817:TextToWhatsaap:Tag")
 }
 ```
 Replace 'Tag' with the specific release tag you want to use.

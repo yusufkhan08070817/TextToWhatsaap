@@ -3,7 +3,7 @@ TextToWhatsapp is an Android Kotlin library that enables users to send messages 
 
 Getting Started
 Step 1: Add Repository
-Add the following lines to your root build.gradle file at the end of the repositories:
+Add the following lines to your root build.gradle file at the end of the repositories: ``````
 version :``` 1.0.0```
 ``` allproject
 dependencyResolutionManagement {
@@ -25,10 +25,14 @@ Replace 'Tag' with the specific release tag you want to use.
 
 How to Use
 Initialize the TextToWhatsapp instance:
-```   val wp= TextToWhatsApp("countrycode+XXXXXXXXXX",this)```
+```  
+val wp= TextToWhatsApp("countrycode+XXXXXXXXXX",this)
+```
 for example +91XXXXXXXXXX
 Send a message:
-```  wp.sentMsg()```
+```
+wp.sentMsg()
+```
 
 That's it! You can now seamlessly integrate WhatsApp messaging into your Android Kotlin application.
 

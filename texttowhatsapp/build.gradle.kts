@@ -1,7 +1,7 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-    id("maven-publish")
+    id("maven-publish") // Add the maven-publish plugin
 }
 
 android {
@@ -30,6 +30,13 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+
+    components {
+        // Define the 'release' component
+        create("release", LibraryAndroidComponent::class) {
+            // Add any additional configurations for the release component if needed
+        }
     }
 }
 
